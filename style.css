@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    background-color: #ECD3AF;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    float: left;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFEFD8;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 100px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #471606;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: chocolate;
+    font-weight: bold;
+}
+
+/* button */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.display-1 {
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    color: #474306;
+    background-color: #F5EE84;
+}
+
+.btn-primary:hover {
+    color: #F5EE84;
+    background-color: #474306;
+}
+
+.color-primary {
+    color: #B79379;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* justify-content */
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.container {
+    min-width: 1028px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.home .container-fluid {
+    min-height: 750px;
+    padding: 1rem 7rem;
+    color: #03045E;
+    overflow: hidden;
+    position: relative;
+}
+
+.home .image-cover {
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    width: 1000px;
+}
+
+.home img {
+    width: 100%;
+}
+
+.home .desc {
+    z-index: 99;
+}
+
+.desc p {
+    margin-top: 20px;
+}
+
+.copyright p {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    color: #471606;
+  }
