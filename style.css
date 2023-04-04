@@ -8,7 +8,7 @@
 body {
     font-size: 20px;
     font-family: 'Jost', sans-serif;
-    background-color: #ECD3AF;
+    background-color: #ffffff;
 }
 
 .wrapper {
@@ -33,6 +33,7 @@ nav {
     position: -webkit-sticky;
     top: 0;
     background: #FFEFD8;
+    z-index: 5;
   }
 
 nav ul {
@@ -76,17 +77,18 @@ nav ul li a:hover {
 }
 
 .btn-primary {
-    color: #474306;
-    background-color: #F5EE84;
+    color: #F5EE84;
+    background-color: #03045E;
 }
 
 .btn-primary:hover {
-    color: #F5EE84;
-    background-color: #474306;
+    color: #03045E;
+    background-color: #F5EE84;
 }
 
 .color-primary {
-    color: #B79379;
+    color: #03045E;
+    background-color: #F5EE84;
 }
 
 .d-flex {
@@ -116,7 +118,6 @@ nav ul li a:hover {
     box-sizing: border-box;
     width: 100%;
     padding: 50px;
-    background-color: #ffffff;
     background-size: cover;
 }
 
@@ -126,13 +127,7 @@ nav ul li a:hover {
     color: #03045E;
     overflow: hidden;
     position: relative;
-}
-
-.home .image-cover {
-    position: absolute;
-    right: -100px;
-    bottom: -100px;
-    width: 1000px;
+    background-color: #fff7ec;
 }
 
 .home img {
@@ -140,15 +135,65 @@ nav ul li a:hover {
 }
 
 .home .desc {
-    z-index: 99;
+    z-index: 1;
 }
 
 .desc p {
     margin-top: 20px;
 }
 
+/* About */
+
+.about .container-fluid {
+    min-height: 650px;
+    padding: 4rem 7rem;
+    color: #03045E;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    background-color: #FFEFD8;
+}
+
+.about .tittle {
+    z-index: 99;
+}
+
+.about .tittle p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #471606;
+    letter-spacing: 6px;
+}
+
+.about .tittle h1 {
+    display: inline-block;
+    margin-top: 10px;
+    color: #471606;;
+    background-color: #F5EE84;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.about .tittle h1 span {
+    color: #03045E;
+}
+
+.content p {
+    display: inline-block;
+    margin-top: 20px;
+    text-align-last: justify;
+    line-height: 38px;
+}
+
+.last p {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #F5EE84;
+    font-weight: bold;
+    }
+
 .copyright p {
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     text-align: center;
     color: #471606;
   }
