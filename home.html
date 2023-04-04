@@ -1,61 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dinita Kusumasari</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="wrapper">
-            <img src="assets/img/logo.png" alt="logo">
-            <div class = "menu">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="recent.html">Recent</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+      <div class="wrapper">
+        <img src="assets/img/logo.png" alt="logo" />
+        <div class="menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recent.html">Recent</a></li>
+            <li><a href="article.html">Article</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <section class="home">
-        <div class="container-fluid d-flex justify-content-space-between align-center">
-            <div class="desc">
-                <h1 class="display-1">Hi!, I'm <span class="color-primary">Dinita Kusumasari</span></h1>
-                <p>An UI/UX Designer Website or Mobile Application <br>based on Indonesia.</p>
-                <a href="" class="btn btn-primary mt-20">My Contact</a>
-            </div>
-            <div class="image-cover">
-                <img src="assets/img/foto.png" alt="foto" />
-            </div>
+      <div class="container-fluid d-flex justify-content-space-between align-center">
+        <div class="desc">
+          <h1 class="display-1">Hi!, I'm <span class="color-primary">Dinita Kusumasari</span></h1>
+          <p>An UI/UX Designer Website or Mobile Application <br />based on Indonesia.</p>
+          <a href="" class="btn btn-primary mt-20">My Contact</a>
         </div>
+        <div>
+          <img src="assets/img/foto.png" alt="foto" />
+        </div>
+      </div>
     </section>
 
     <section class="about">
-        <div class="container-fluid">
-            <div class="tittle">
-                <p>-Get to Know Me</p>
-                <h1>/<span>About Me</span></h1>
-            </div>
-            <div class="content">
-                <p>Hi everyone! My name is Dinita. I am an informatics engineering <br>
-                    student who is currently attending bootcamp Front-End Web Development <br>
-                    batch 4 from Skilvul #Tech4Impact. I am interested in studying UI/UX design, <br>
-                    Web Programming, and etc. I always like to learn new things that I have never <br>
-                    tried because I think it helps me to find my passion.</p>
-            </div>
-            <div class="last">
-                <p>Tools that I recently used for design :</p>
-            </div>
+      <div class="container-fluid">
+        <div class="tittle text-right">
+          <p>-Get to Know Me</p>
+          <h1>/<span>About Me</span></h1>
         </div>
+        <div class="d-flex justify-content-end">
+        <div class="content">
+          <p>
+            Hi everyone! My name is Dinita. I am an informatics engineering
+            <br />
+            student who is currently attending bootcamp Front-End Web Development <br />
+            batch 4 from Skilvul #Tech4Impact. I am interested in studying UI/UX design, <br />
+            Web Programming, and etc. I always like to learn new things that I have never <br />
+            tried because I think it helps me to find my passion.
+          </p>
+          <div class="last">
+            <p>Tools that I recently used for design :</p>
+          </div>
+          <div class="d-flex img-tools">
+            <img src="assets/img/figma.png" alt="figma-logo">
+            <img src="assets/img/canva.png" alt="canva-logo">
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
 
+    <section class="recent">
+      <div class="container-fluid">
+        <div class="tittle">
+          <p>-Mini Portfolio</p>
+          <h1>/<span>Recent Project</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="tittle">
+          <p>-Let's Connect With Me</p>
+          <h1>/<span>My Contact</span></h1>
+        </div>
+        <div class="d-flex">
+          <div class="image-cover">
+            <img src="assets/img/contact-gambar.png" alt="foto" />
+          </div>
+          <div class="desc">
+            <p>
+              If you interested about my project or you want to know more <br />
+              about me you can find and talk to me on :
+            </p>
+            <div class="d-flex img-contact justify-content-center">
+              <img src="assets/img/gmail.png" alt="gmail-logo">
+              <img src="assets/img/linkedin.png" alt="linkedin-logo">
+              <img src="assets/img/github.png"alt="github-logo">
+              <img src="assets/img/instagram.png" alt="instagram-logo">
+            </div>
+          </div>
+        </div>
+    </footer>
+
     <div class="copyright">
-        <p>&copy; 2023 - Dinita Kusumasari</p>
+      <p>&copy; 2023 Created by <span class="font">Dinita Kusumasari</span> | All rights reserved</p>
     </div>
-</body>
+  </body>
 </html>
