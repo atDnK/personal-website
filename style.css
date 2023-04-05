@@ -3,8 +3,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+.text-center{
+    text-align: center;
+}
 body {
     font-size: 20px;
     font-family: 'Jost', sans-serif;
@@ -89,6 +93,24 @@ nav ul li a:hover {
     background-color: #F5EE84;
 }
 
+.btn-secondary{
+    color: #471606;
+    border: 1px solid #471606;
+}
+
+.btn-secondary:hover{
+    color: #ECD3AF;
+    background-color: #471606;
+}
+.btn-full{
+    width: 100%;
+}
+
+.card .btn{
+    position: relative;
+    margin-top: 20px;
+    bottom: 0;
+}
 .color-primary {
     color: #03045E;
     background-color: #F5EE84;
@@ -259,6 +281,7 @@ nav ul li a:hover {
 }
 
 .card {
+    position: relative;
     text-align: left;
     overflow: hidden;
     background-color: #E4BE98;
@@ -271,6 +294,10 @@ nav ul li a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.105);
     color: #471606;
     min-height: 550px;
+}
+
+.card-background{
+    width: 100%;
 }
 
 .card img {
@@ -368,7 +395,6 @@ footer .desc{
     width: 58px;
     margin-top: 10px;
     margin-right: 30px;
-
 }
 
 /* copyright */
